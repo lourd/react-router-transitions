@@ -1,0 +1,25 @@
+.fadeInOut-enter {
+  opacity: 0;
+}
+.fadeInOut-enter-active {
+  opacity: 1;
+  transition: opacity 2000ms;
+}
+.fadeInOut-leave {
+  opacity: 1;
+}
+.fadeInOut-leave-active {
+  opacity: 0;
+  transition: opacity 2000ms;
+}
+
+.content {
+  position: relative;
+}
+
+.comp {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  width: 100%;
+}
